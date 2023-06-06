@@ -20,5 +20,5 @@ from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('render/', views.primeiroRender)
+    path('login', views.primeiroRender)
 ]
